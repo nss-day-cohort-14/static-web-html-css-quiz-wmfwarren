@@ -27,6 +27,8 @@ img {
 	display: block;
 	margin: 0 auto;
 	border: 1px solid black;
+	width: 80%;
+	height: 100px;
 }
 
 /* Styles for the card title */
@@ -42,13 +44,13 @@ header.mainHead {
 
 }
 
-/*Below are the sectionOne styles*/
+/*Below are the infoSection styles*/
 
 p.description {
 	min-height: 7em;
 }
 
-section.sectionOne p {
+section.infoSection p {
 	text-align: justify;
 	margin: 3px 2px;
 }
@@ -58,29 +60,29 @@ p.availability {
 	color: yellow;
 }
 
-/*Below are the sectionTwo styles*/
+/*Below are the specs styles*/
 
-section.sectionTwo p,
-section.sectionTwo h4,
-section.sectionTwo footer {
+section.specs p,
+section.specs h4,
+section.specs footer {
 	margin: 0 auto;
 }
 
-section.sectionTwo footer {
+section.specs footer {
 	font-size: 10px;
 }
 
-section.sectionTwo p {
+section.specs p {
 	font-weight: bold;
 	margin-left: 7px;
 }
 
-/*Below are the sectionThree styles*/
+/*Below are the pricing styles*/
 
-section.sectionThree h4 {
+section.pricing h4 {
 	margin: 4px 0;
 }
-section.sectionThree p {
+section.pricing p {
 	margin: 2px 0;
 	margin-left: 7px;
 	font-weight: bold;
