@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+}
+
+/*Center the body*/
+
+.contentContainer {
+	margin: 0 1%;
+}
+
+/*Base card styling*/
+article {
+	border: 1px solid lightblue;
+	width: 30%;
+	display: inline-block;
+	height: 100%;
+	margin-bottom: 7px;
+} 
+
+article:nth-of-type(3n+2) { /* always selects the middle element */
+	margin: 0 4%; /* Equal padding between the elements */
+}
+
+/*Image styles*/
+
+img {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+/* Styles for the card title */
+
+header h1.prodTitle { 
+	text-align: center;
+	border-bottom: 1px dotted lightgrey;
+	margin-top: 0;
+}
+
+header.mainHead {
+	text-align: center;
+
+}
+
+/*Below are the sectionOne styles*/
+
+p.description {
+	min-height: 7em;
+}
+
+section.sectionOne p {
+	text-align: justify;
+	margin: 3px 2px;
+}
+
+p.availability {
+	background-color: darkgrey;
+	color: yellow;
+}
+
+/*Below are the sectionTwo styles*/
+
+section.sectionTwo p,
+section.sectionTwo h4,
+section.sectionTwo footer {
+	margin: 0 auto;
+}
+
+section.sectionTwo footer {
+	font-size: 10px;
+}
+
+section.sectionTwo p {
+	font-weight: bold;
+}
+
+/*Below are the sectionThree styles*/
+
+section.sectionThree h4 {
+	margin: 4px 0;
+}
+section.sectionThree p {
+	margin: 2px 0;
+}
+
+
+
+
